@@ -1,0 +1,291 @@
+{
+    // These tasks will run in order when initializing your CodeSandbox project.
+    "setupTasks": [
+        {
+            "name": "Install Dependencies",
+            "command": "npm install"
+        }
+    ],
+
+    // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+    "tasks": {
+        "install-legacy": {
+            "name": "install-legacy",
+            "command": "npm run install-legacy",
+            "runAtStart": false
+        },
+        "update-legacy": {
+            "name": "update-legacy",
+            "command": "npm run update-legacy",
+            "runAtStart": false
+        },
+        "lint:js": {
+            "name": "lint:js",
+            "command": "npm run lint:js",
+            "runAtStart": false
+        },
+        "lint-fix:js": {
+            "name": "lint-fix:js",
+            "command": "npm run lint-fix:js",
+            "runAtStart": false
+        },
+        "lint:style": {
+            "name": "lint:style",
+            "command": "npm run lint:style",
+            "runAtStart": false
+        },
+        "lint-fix:style": {
+            "name": "lint-fix:style",
+            "command": "npm run lint-fix:style",
+            "runAtStart": false
+        },
+        "lint": {
+            "name": "lint",
+            "command": "npm run lint",
+            "runAtStart": false
+        },
+        "dev": {
+            "name": "Uptime",
+            "command": "npm run dev",
+            "runAtStart": false,
+            "preview": {
+                "port": 3001
+            }
+        },
+        "start-frontend-dev": {
+            "name": "start-frontend-dev",
+            "command": "npm run start-frontend-dev",
+            "runAtStart": false
+        },
+        "start": {
+            "name": "start",
+            "command": "npm run start",
+            "runAtStart": false
+        },
+        "start-server": {
+            "name": "start-server",
+            "command": "npm run start-server",
+            "runAtStart": false
+        },
+        "start-server-dev": {
+            "name": "start-server-dev",
+            "command": "npm run start-server-dev",
+            "runAtStart": false
+        },
+        "build": {
+            "name": "build",
+            "command": "npm run build",
+            "runAtStart": false
+        },
+        "test": {
+            "name": "test",
+            "command": "npm run test",
+            "runAtStart": false
+        },
+        "test-with-build": {
+            "name": "test-with-build",
+            "command": "npm run test-with-build",
+            "runAtStart": false
+        },
+        "jest-backend": {
+            "name": "jest-backend",
+            "command": "npm run jest-backend",
+            "runAtStart": false
+        },
+        "tsc": {
+            "name": "tsc",
+            "command": "npm run tsc",
+            "runAtStart": false
+        },
+        "vite-preview-dist": {
+            "name": "vite-preview-dist",
+            "command": "npm run vite-preview-dist",
+            "runAtStart": false
+        },
+        "build-docker": {
+            "name": "build-docker",
+            "command": "npm run build-docker",
+            "runAtStart": false
+        },
+        "build-docker-alpine-base": {
+            "name": "build-docker-alpine-base",
+            "command": "npm run build-docker-alpine-base",
+            "runAtStart": false
+        },
+        "build-docker-debian-base": {
+            "name": "build-docker-debian-base",
+            "command": "npm run build-docker-debian-base",
+            "runAtStart": false
+        },
+        "build-docker-builder-go": {
+            "name": "build-docker-builder-go",
+            "command": "npm run build-docker-builder-go",
+            "runAtStart": false
+        },
+        "build-docker-alpine": {
+            "name": "build-docker-alpine",
+            "command": "npm run build-docker-alpine",
+            "runAtStart": false
+        },
+        "build-docker-debian": {
+            "name": "build-docker-debian",
+            "command": "npm run build-docker-debian",
+            "runAtStart": false
+        },
+        "build-docker-nightly": {
+            "name": "build-docker-nightly",
+            "command": "npm run build-docker-nightly",
+            "runAtStart": false
+        },
+        "build-docker-nightly-alpine": {
+            "name": "build-docker-nightly-alpine",
+            "command": "npm run build-docker-nightly-alpine",
+            "runAtStart": false
+        },
+        "build-docker-nightly-amd64": {
+            "name": "build-docker-nightly-amd64",
+            "command": "npm run build-docker-nightly-amd64",
+            "runAtStart": false
+        },
+        "build-docker-pr-test": {
+            "name": "build-docker-pr-test",
+            "command": "npm run build-docker-pr-test",
+            "runAtStart": false
+        },
+        "upload-artifacts": {
+            "name": "upload-artifacts",
+            "command": "npm run upload-artifacts",
+            "runAtStart": false
+        },
+        "setup": {
+            "name": "setup",
+            "command": "npm run setup",
+            "runAtStart": false
+        },
+        "download-dist": {
+            "name": "download-dist",
+            "command": "npm run download-dist",
+            "runAtStart": false
+        },
+        "mark-as-nightly": {
+            "name": "mark-as-nightly",
+            "command": "npm run mark-as-nightly",
+            "runAtStart": false
+        },
+        "reset-password": {
+            "name": "reset-password",
+            "command": "npm run reset-password",
+            "runAtStart": false
+        },
+        "remove-2fa": {
+            "name": "remove-2fa",
+            "command": "npm run remove-2fa",
+            "runAtStart": false
+        },
+        "compile-install-script": {
+            "name": "compile-install-script",
+            "command": "npm run compile-install-script",
+            "runAtStart": false
+        },
+        "test-install-script-centos7": {
+            "name": "test-install-script-centos7",
+            "command": "npm run test-install-script-centos7",
+            "runAtStart": false
+        },
+        "test-install-script-alpine3": {
+            "name": "test-install-script-alpine3",
+            "command": "npm run test-install-script-alpine3",
+            "runAtStart": false
+        },
+        "test-install-script-ubuntu": {
+            "name": "test-install-script-ubuntu",
+            "command": "npm run test-install-script-ubuntu",
+            "runAtStart": false
+        },
+        "test-install-script-ubuntu1604": {
+            "name": "test-install-script-ubuntu1604",
+            "command": "npm run test-install-script-ubuntu1604",
+            "runAtStart": false
+        },
+        "test-nodejs16": {
+            "name": "test-nodejs16",
+            "command": "npm run test-nodejs16",
+            "runAtStart": false
+        },
+        "simple-dns-server": {
+            "name": "simple-dns-server",
+            "command": "npm run simple-dns-server",
+            "runAtStart": false
+        },
+        "simple-mqtt-server": {
+            "name": "simple-mqtt-server",
+            "command": "npm run simple-mqtt-server",
+            "runAtStart": false
+        },
+        "update-language-files": {
+            "name": "update-language-files",
+            "command": "npm run update-language-files",
+            "runAtStart": false
+        },
+        "ncu-patch": {
+            "name": "ncu-patch",
+            "command": "npm run ncu-patch",
+            "runAtStart": false
+        },
+        "release-final": {
+            "name": "release-final",
+            "command": "npm run release-final",
+            "runAtStart": false
+        },
+        "release-beta": {
+            "name": "release-beta",
+            "command": "npm run release-beta",
+            "runAtStart": false
+        },
+        "git-remove-tag": {
+            "name": "git-remove-tag",
+            "command": "npm run git-remove-tag",
+            "runAtStart": false
+        },
+        "build-dist-and-restart": {
+            "name": "build-dist-and-restart",
+            "command": "npm run build-dist-and-restart",
+            "runAtStart": false
+        },
+        "start-pr-test": {
+            "name": "start-pr-test",
+            "command": "npm run start-pr-test",
+            "runAtStart": false
+        },
+        "cy:test": {
+            "name": "cy:test",
+            "command": "npm run cy:test",
+            "runAtStart": false
+        },
+        "cy:run": {
+            "name": "cy:run",
+            "command": "npm run cy:run",
+            "runAtStart": false
+        },
+        "cy:run:unit": {
+            "name": "cy:run:unit",
+            "command": "npm run cy:run:unit",
+            "runAtStart": false
+        },
+        "cypress-open": {
+            "name": "cypress-open",
+            "command": "npm run cypress-open",
+            "runAtStart": false
+        },
+        "build-healthcheck-armv7": {
+            "name": "build-healthcheck-armv7",
+            "command": "npm run build-healthcheck-armv7",
+            "runAtStart": false
+        },
+        "depoly-demo-server": {
+            "name": "depoly-demo-server",
+            "command": "npm run depoly-demo-server",
+            "runAtStart": false
+        }
+    }
+}
