@@ -4,9 +4,7 @@ module.exports = defineConfig({
     projectId: "vyjuem",
     e2e: {
         experimentalStudio: true,
-        setupNodeEvents(on, config) {
-
-        },
+        setupNodeEvents(on, config) {},
         fixturesFolder: "test/cypress/fixtures",
         screenshotsFolder: "test/cypress/screenshots",
         videosFolder: "test/cypress/videos",
@@ -19,7 +17,7 @@ module.exports = defineConfig({
         viewportHeight: 1080,
         specPattern: [
             "test/cypress/e2e/setup.cy.js",
-            "test/cypress/e2e/**/*.js"
+            "test/cypress/e2e/**/*.js",
         ],
     },
     env: {
